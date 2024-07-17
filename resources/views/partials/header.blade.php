@@ -8,7 +8,7 @@
                 <ul>
                     @foreach ($headerLinks as $link)
                         <li>
-                            <a href="#">
+                            <a href="{{ $link["url"] }}">
                                 {{ $link["title"] }}
                             </a>
                         </li>

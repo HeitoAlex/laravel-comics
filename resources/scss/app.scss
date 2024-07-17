@@ -52,3 +52,152 @@ header{
                 }
         }
 }
+
+main{
+
+    section#jumbotron{
+        background-image: url(../img/jumbotron.jpg);
+        height: 300px;
+        background-size: cover;
+        position: relative;
+
+            div{
+                position: absolute;
+                text-transform: uppercase;
+                background-color: #0683F9;
+                color: white;
+                padding: 1rem 2rem;
+                bottom: -1.5rem;
+                left: 12rem;
+                font-weight: bolder;
+            }
+    }
+
+    section{
+        background-color: black;
+        padding: 2rem;
+    }
+
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    article{
+        width: calc((100% / 6) - .5rem);
+        padding: .5rem 3rem;
+        margin-bottom: .5rem;
+        margin-right: .5rem;
+
+            img{
+                width: 175px;
+                height: 230px;
+                margin-bottom: 1rem;
+            }
+
+            h4{
+                text-transform: uppercase;
+                color: white;
+
+            }
+    }
+
+    div#load{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    button{
+    text-transform: uppercase;
+    background-color: #0683F9;
+    color: white;
+    padding: 1rem 4rem;
+    border: none;
+    font-weight: bolder;
+    }
+}
+
+footer{
+    background-image: url(../img/footer-bg.jpg);
+    height: 500px;
+    position: relative;
+
+    section.container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div#footer-links{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 350px;
+        margin-top: 5rem;
+
+        div{
+            margin-bottom: 1rem;
+            margin-right: 1.5rem;
+        }
+
+        h3{
+            margin-bottom: 1rem;
+            color: white;
+            font-weight: bold;
+        }
+
+        li{
+            margin-bottom: .2rem;
+            font-size: .8rem;
+        }
+
+        li a{
+            color: gray;
+        }
+    }
+
+    div#bg-logo{
+        height: 500px;
+        width: 500px;
+        background-image: url(../img/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    section#socials{
+        background-color: #303030;
+        padding: 1.5rem 0;
+        text-transform: uppercase;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    button{
+        padding: 1rem;
+        border: 2px solid #0683F9;
+        color: white;
+        background-color: transparent;
+        text-transform: uppercase;
+    }
+
+    div#follow{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+            p,
+            img{
+                margin-right: 1rem;
+            }
+
+            p{
+                color: white;
+            }
+    }
+}
+

@@ -1,1 +1,54 @@
-@import "⁓bootstrap/scss/bootstrap.scss";
+// @import "⁓bootstrap/scss/bootstrap.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+
+        section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+                li{
+                font-size: .8rem;
+                font-weight: bold;
+                margin-right: 1.3rem;
+                text-transform: uppercase;
+
+                    a {
+                        &.active{
+                            color:  #0683F9;
+                        }
+                    }
+                }
+        }
+}
